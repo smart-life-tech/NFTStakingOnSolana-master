@@ -19,8 +19,8 @@ function MyComponent() {
     };
 
     checkIfWalletIsConnected(); // Call the function here
-
-  return null; // Return null to avoid rendering any JSX
+    MyComponent();
+    return null; // Return null to avoid rendering any JSX
 }
 
 export default MyComponent;
