@@ -1,5 +1,5 @@
 {
-  "name": "barnyard-nft-staking",
+  "name": "rootlabs-nft-staking",
   "author": "Alex Dragon",
   "licence": "MIT",
   "version": "0.1.0",
@@ -23,17 +23,11 @@
       "@babel/preset-react"
     ]
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-
-      "defaults"
-    ]
-  },
+  "browserslist": [
+    ">0.2%",
+   "not dead",
+   "not op_mini all"
+ ],
   "dependencies": {
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
@@ -90,6 +84,7 @@
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/eslint-parser": "^7.15.7",
+    "@types/babel__core": "^7.20.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
