@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 var publicKey = "keys";
-function MyComponent() {
+export function MyComponent() {
     const [walletConnected, setWalletConnected] = useState(false);
     console.log("publicKey");
     useEffect(() => {
@@ -45,6 +45,6 @@ export const ANIMAL_CREATOR = "DrbC3kbP57EA1wQqjCdaEMKBUEjESGTZbNY7vrZxP5Tb";
 export const LAND_MAX = 3;
 export const FARMER_MAX = 3;
 export const ANIMAL_MAX = 3;
-export default MyComponent;
+//export function MyComponent;
 
 console.log(publicKey);
