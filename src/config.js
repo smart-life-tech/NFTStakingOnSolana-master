@@ -23,9 +23,7 @@ function MyComponent() {
     return null; // Return null to avoid rendering any JSX
 }
 
-export default MyComponent;
 
-console.log(publicKey);
 export const PROGRAM_ID = "Zq5BGzpnYDgcYTB7v5mgaSg4buQbXvEu9JE8gFe9NPJ";
 
 export const PUBLISH_NETWIRK = "mainnet"; // "devnet" or "mainnet"
@@ -47,3 +45,6 @@ export const ANIMAL_CREATOR = "DrbC3kbP57EA1wQqjCdaEMKBUEjESGTZbNY7vrZxP5Tb";
 export const LAND_MAX = 3;
 export const FARMER_MAX = 3;
 export const ANIMAL_MAX = 3;
+export default MyComponent;
+
+console.log(publicKey);
