@@ -1,6 +1,6 @@
 import { Grid } from "@material-ui/core";
 import NFTCard from "../components/NFTCard";
-import { ANIMAL_MAX, FARMER_MAX, LAND_MAX,MyComponent} from "../config";
+import { ANIMAL_MAX, FARMER_MAX, LAND_MAX} from "../config";
 import ClipLoader from "react-spinners/ClipLoader";
 
 export default function NFTs({
@@ -17,7 +17,7 @@ export default function NFTs({
   farmerSelected,
   allUncheck,
   animalSelected,
-  MyComponent,
+
   ...props }) {
 
   return (
@@ -43,7 +43,7 @@ export default function NFTs({
           <button
             className="stake-button"
             onClick={() => onStakeToYard()}
-            disabled={stakeDisable || stakeLoading}
+            //disabled={stakeDisable || stakeLoading}
           >
             {stakeLoading ?
               <ClipLoader color="#fff" size={24} />
