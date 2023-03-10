@@ -2,7 +2,7 @@ import { Grid } from "@material-ui/core";
 import NFTCard from "../components/NFTCard";
 import { ANIMAL_MAX, FARMER_MAX, LAND_MAX} from "../config";
 import ClipLoader from "react-spinners/ClipLoader";
-
+//done
 export default function NFTs({
   spleteNFTs,
   selectNFTs,
